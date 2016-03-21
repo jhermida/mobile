@@ -1,0 +1,68 @@
+
+
+<!doctype html>
+<html>
+<head>
+	<title>My First Jquery Mobile Project</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="themes/joel.css" />
+  <link rel='stylesheet'href ='https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.icons.min.css'/>
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.js"></script>
+<script type="text/javascript">
+$(function() {
+			$( "[data-role='navbar']" ).navbar();
+			$( "[data-role='header'], [data-role='footer']" ).toolbar();
+		});
+</script>
+<style type="text/css">
+
+.ui-page
+{
+background: #000;
+background-image:url(rokbrgr.png);
+
+background-size:125%;
+background-position: -56px -5px;
+}
+
+
+</style>
+</head>
+
+<body>
+<div data-role="page" data-theme="a">
+
+<div role="main" class="ui-content">
+
+
+<img src="rok.png" style="width:100%">
+
+<ul data-role="listview" data-inset="true">
+<li data-icon=""><a href="starters.html">Starters + Sides</a></li>
+<li><a href="burger.html">Burgers + Sliders</a></li>
+<li><a href="contact.html">Comfort Food + Salads</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+
+
+
+
+</div>
+</div>
+
+
+	<div data-role="footer" data-position="fixed" data-theme="a">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="index.html" data-transition="slide"data-icon="home">Home</a></li>
+				<li><a href="burger.html" data-transition="slide" data-icon="food">Burgers</a></li>
+				<li><a href="about.html" data-transition="slide" data-icon="heart">About</a></li>
+				<li><a href="contact.html" data-transition="slide" data-icon="mail">Contact</a></li>
+							</ul>
+		</div><!-- /navbar -->
+		
+	</div><!-- /footer -->
+
+</html>
